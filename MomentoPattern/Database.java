@@ -1,8 +1,6 @@
 package MomentoPattern;
-
 public class Database {
     String data;
-
     public Database(){
         this.data = "";
     }

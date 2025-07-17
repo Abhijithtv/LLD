@@ -7,10 +7,6 @@ public class SnapShot implements ISnapShot{
         this.state = state;
     }
 
-    public SnapShot(){
-        state = "";
-    }
-
     @Override
     public void takeSnap(String change) {
         this.state += change;
